@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 晓娜的博客">
+    <meta name="keywords" content="vue路由模式, 晓娜的博客">
     <meta name="description" content="我的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 晓娜的博客</title>
+    <title>vue路由模式 | 晓娜的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -310,12 +310,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">vue路由模式</h1>
                 </div>
             </div>
         </div>
@@ -429,9 +429,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/vue-%E5%89%8D%E7%AB%AF/">
+                                <span class="chip bg-color">vue,  前端</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -443,7 +447,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-03-30
+                    2021-03-31
                 </div>
                 
 
@@ -464,19 +468,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <p>vue-router路由对象中，路由有两种模式：hash和history，而默认的是hash模式</p>
+<p>路由的核心：改变视图的同时不会像后端发出请求</p>
+<h3 id="hash路由"><a href="#hash路由" class="headerlink" title="hash路由"></a>hash路由</h3><p>原理：hash原理其实是浏览器监听了一个onhashchange的方法来改变页面的跳转的<br>特点：hash虽然出现在url中，但不会包含在HTTP请求中，对后端完全没有影响，因此改变hash不会重新加载页面。<br>缺点：只能改变#后面的参数来实现路由的跳转。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">windows.onhashchange = <span class="function"><span class="keyword">function</span>(<span class="params">event</span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(event.oldURL,event.newURL);</span><br><span class="line">  <span class="keyword">let</span> hash = location.hasg  <span class="comment">//通过location对象来获取hash地址</span></span><br><span class="line">  <span class="built_in">console</span>.log(hash)  <span class="comment">// #/notebooks/123456/list  地址从#号开始</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>因为hash发生变化的url都会被浏览器记录下来，从而会发现浏览器的前进后退都可以用。</p>
+<h3 id="history路由"><a href="#history路由" class="headerlink" title="history路由"></a>history路由</h3><p>原理：利用了HTML5 的History方法。 中新增的，不支持老旧浏览器。</p>
+<p>特点1：history模式包括back、forward、go三个方法，对应浏览器的前进，后退，跳转操作。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">history.go(-<span class="number">2</span>); <span class="comment">//后退两次</span></span><br><span class="line">history.go(<span class="number">2</span>);<span class="comment">//前进两次</span></span><br><span class="line">history.back();<span class="comment">//后退</span></span><br><span class="line">history.forward();前进</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>特点2：history模式可以修改替换历史状态，包括了pushState,replaceState两个方法，这两个方法接受三个参数：stateObj,title,url</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">history.pushState(&#123;<span class="attr">color</span>:<span class="string">&#x27;red&#x27;</span>,<span class="string">&#x27;red&#x27;</span>,<span class="string">&#x27;red&#x27;</span>&#125;)</span><br><span class="line">history.back();</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>通过pushstate把页面的状态保存在state对象中，当页面的url再变回这个url时，可以通过event.state取到这个state对象，从而可以对页面状态进行还原，这里的页面状态就是页面字体颜色，实际滚动条位置，阅读进度，组件的开关的这些页面状态都可以存储到state的里面</p>
+<p>缺点：history模式在dev阶段正常，但是在部署服务器的时候，需要在ng上配置相应的正向代理跳转，否则跳转会出错。</p>
 
                 
             </div>
@@ -503,7 +509,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://freedomflyflower.github.io/2021/03/30/hello-world/">https://freedomflyflower.github.io/2021/03/30/hello-world/</a>
+                    <a href="https://freedomflyflower.github.io/2021/03/31/2021-03-31-vue%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/">https://freedomflyflower.github.io/2021/03/31/2021-03-31-vue%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -540,7 +546,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+                            
+                                <a href="/tags/vue-%E5%89%8D%E7%AB%AF/">
+                                    <span class="chip bg-color">vue,  前端</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -714,13 +724,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/03/30/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+                <a href="/2021/03/31/2021-03-31-vue%E7%BB%84%E4%BB%B6%E9%97%B4%E4%BC%A0%E5%80%BC/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="我的博客">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="vue组件间传值.md">
                         
-                        <span class="card-title">我的博客</span>
+                        <span class="card-title">vue组件间传值.md</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -731,7 +741,7 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-30
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-31
                         </span>
                         <span class="publish-author">
                             
@@ -740,6 +750,14 @@
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/vue-%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">vue,  前端</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -751,13 +769,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/03/30/2021-03-31-css%E5%88%B6%E4%BD%9C%E7%82%AB%E9%85%B7%E7%9A%84%E6%9D%A1%E7%BA%B9%E8%83%8C%E6%99%AF/">
+                <a href="/2021/03/31/%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="css制作炫酷的条纹背景">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="前端代码命名规范">
                         
-                        <span class="card-title">css制作炫酷的条纹背景</span>
+                        <span class="card-title">前端代码命名规范</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -768,7 +786,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-31
                             </span>
                         <span class="publish-author">
                             
@@ -781,8 +799,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/css/">
-                        <span class="chip bg-color">css</span>
+                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">前端</span>
                     </a>
                     
                 </div>
