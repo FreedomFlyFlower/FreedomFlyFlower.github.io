@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfef5eb6-1f0d-4064-ba08-757986cf51bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/2021-03-31-vue组件间传值/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景/img8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/ccc写类似冬瓜圆效果/xiaoguo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/ccc写类似冬瓜圆效果/xiaoguo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/2021-03-31-vue组件间传值/img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值/img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/2021-03-31-vue组件间传值/img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值/img2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/images/2021-03-31-vue组件间传值/img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值/img3.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,47 +75,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="852732801">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="112" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="112" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <first_editor relative-caret-position="340">
+                <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -110,11 +121,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/前端代码命名规范.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/ccc写类似冬瓜圆效果.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="528">
+                <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -124,11 +135,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/2021-04-01-es6.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <first_editor relative-caret-position="271">
+                <caret line="83" column="88" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="88" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -138,11 +149,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/hello-world.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-20-markdown.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <first_editor relative-caret-position="154">
+                <caret line="153" selection-start-line="153" selection-end-line="153" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -160,10 +171,14 @@
       <find>/images/</find>
       <find>../images</find>
       <find>hexo-deployer-git</find>
+      <find>css3-bg</find>
+      <find>30</find>
     </findStrings>
     <replaceStrings>
       <replace>/images/css3bg/</replace>
       <replace>https://freedomflyflower.github.io/images</replace>
+      <replace>2021/03/30/2021-03-31-css制作炫酷的条纹背景</replace>
+      <replace>img</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,9 +192,11 @@
         <option value="$PROJECT_DIR$/source/_posts/css制作炫酷的条纹背景.md" />
         <option value="$PROJECT_DIR$/source/_posts/前端代码命名规范.md" />
         <option value="$PROJECT_DIR$/source/_posts/2021-03-2-css制作炫酷的条纹背景.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/source/_posts/ccc写类似冬瓜圆效果.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md" />
       </list>
     </option>
   </component>
@@ -208,7 +225,7 @@
       <path value="$PROJECT_DIR$/themes/stillMaster/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -227,47 +244,37 @@
         <subPane>
           <expand>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="FreedomFlyFlower.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreedomFlyFlower.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name=".deploy_git" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name=".deploy_git" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="FreedomFlyFlower.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreedomFlyFlower.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="FreedomFlyFlower.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreedomFlyFlower.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="FreedomFlyFlower.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreedomFlyFlower.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
               <item name="2021-03-31-vue组件间传值" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="FreedomFlyFlower.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreedomFlyFlower.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="ccc写类似冬瓜圆效果" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FreedomFlyFlower.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FreedomFlyFlower.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -285,20 +292,23 @@
     <property name="node.js.selected.package.standard" value="F:\project\nebula-font-operation-front\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\FreedomFlyFlower.github.io\source\_posts\2021-03-31-css制作炫酷的条纹背景" />
+      <recent name="F:\FreedomFlyFlower.github.io\source\_posts\ccc写类似冬瓜圆效果" />
+      <recent name="F:\blog\source\_posts" />
+      <recent name="F:\blog\source\images" />
+      <recent name="F:\blog\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\FreedomFlyFlower.github.io\source\_posts" />
       <recent name="F:\blog\source\images" />
       <recent name="F:\blog\source\images\css3bg" />
       <recent name="F:\blog\source\_posts" />
       <recent name="F:\blog" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\blog\source\_posts" />
-      <recent name="F:\blog\source\images" />
-      <recent name="F:\blog\public" />
-      <recent name="F:\blog\source\_posts\css制作炫酷的条纹背景" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,15 +338,16 @@
       <workItem from="1617241444670" duration="1434000" />
       <workItem from="1617270590950" duration="2231000" />
       <workItem from="1617847120585" duration="835000" />
-      <workItem from="1617853634183" duration="2335000" />
+      <workItem from="1617853634183" duration="2566000" />
+      <workItem from="1617865877634" duration="1169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31278000" />
+    <option name="totallyTimeSpent" value="32678000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.1654373" />
@@ -370,44 +381,32 @@
     <entry file="file://$PROJECT_DIR$/public/css/images/banner.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-20-markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="443">
-            <caret line="140" selection-start-line="140" selection-end-line="141" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/images/css3bg/css3-bg7.png" />
     <entry file="file://$PROJECT_DIR$/source/images/css3bg/css3-bg6.png" />
     <entry file="file://$PROJECT_DIR$/source/_posts/css制作炫酷的条纹背景.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-2-css制作炫酷的条纹背景.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="84" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/source/_posts/我的博客.md" />
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/我的博客.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -447,27 +446,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="22" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/2020-02-20-markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="154">
+            <caret line="153" selection-start-line="153" selection-end-line="153" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/ccc写类似冬瓜圆效果.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="528">
+            <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-31-css制作炫酷的条纹背景.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="271">
+            <caret line="83" column="88" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="88" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2021-03-31-vue组件间传值.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
